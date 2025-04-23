@@ -91,12 +91,5 @@ Please select an option.
 
 ## 🧑‍💻 Autor | Author
 
-Feito com 💙 por **Seu Nome Aqui**  
-Made with 💙 by **Your Name Here**
-
----
-
-## 📜 Licença | License
-
-Este projeto está licenciado sob a licença MIT.  
-This project is licensed under the MIT License.
+Feito com 💙 por **Renato S. Borges**  
+Made with 💙 by **Renato S. Borges**
