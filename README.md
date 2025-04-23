@@ -1,13 +1,17 @@
 
 <h1 align="center">🍽️ Cardápio Digital em C</h1>
-<p align="center">Um projeto simples e didático de gerenciamento de cardápio usando linguagem C.</p>
+<p align="center">Um projeto simples em linguagem C para gerenciamento de um cardápio via terminal.</p>
+<p align="center">A simple C project to manage a digital menu through the terminal.</p>
 
 ---
 
 ## 📌 Sobre o Projeto | About the Project
 
-🔧 Este projeto implementa um **sistema de cardápio digital** no terminal, utilizando **C puro**, com foco em fins educacionais.  
-It allows you to **create**, **add**, **remove**, **search**, **list**, and **free** items from a digital menu, all through the terminal interface.
+🔧 Este projeto é uma implementação de um **sistema de cardápio digital**, feito em **C**, com interação via terminal.  
+🔧 This project is an implementation of a **digital menu system**, built in **C**, using terminal interaction.
+
+Ele permite **criar**, **adicionar**, **remover**, **buscar**, **listar** e **liberar** itens de um cardápio digital.  
+It allows you to **create**, **add**, **remove**, **search**, **list**, and **free** items from a digital menu.
 
 ---
 
@@ -15,9 +19,9 @@ It allows you to **create**, **add**, **remove**, **search**, **list**, and **fr
 
 ```bash
 📁 cardapio-digital/
-├── main.c         # Arquivo principal com a lógica do menu principal
-├── cardapio.c     # Implementação das funções do cardápio
-├── cardapio.h     # Cabeçalho contendo declarações e struct
+├── main.c         # Execução principal do programa | Main program execution
+├── cardapio.c     # Lógica das funcionalidades do cardápio | Core menu logic
+├── cardapio.h     # Cabeçalho com declarações | Header with declarations
 ```
 
 ---
@@ -47,7 +51,8 @@ gcc main.c -o cardapio.exe
 cardapio.exe
 ```
 
-> 📝 *É necessário ter o compilador GCC instalado. No Windows, você pode usar o [MinGW](http://www.mingw.org/).*
+> 📝 É necessário ter o GCC instalado.  
+> 📝 GCC must be installed to compile.
 
 ---
 
@@ -64,27 +69,34 @@ Por favor, selecione um.
 0 ----- Sair
 ```
 
+```
+========= WELCOME =========
+Please select an option.
+1 ----- Create menu
+2 ----- Add item
+3 ----- Remove item
+4 ----- Search item
+5 ----- Print menu
+0 ----- Exit
+```
+
 ---
 
-## 🎯 Objetivos Educacionais | Educational Goals
+## 🎯 Objetivo | Purpose
 
-📘 Com este projeto você aprende sobre:
-- Ponteiros e listas encadeadas
-- Alocação dinâmica de memória (`malloc`, `free`)
-- Organização modular com arquivos `.h` e `.c`
-- Manipulação de strings e entrada de dados em C
-- Boas práticas em terminal com `system("cls")`, `sleep()`, etc.
+🎯 O objetivo principal é servir como base para projetos simples de gerenciamento de informações via terminal, com manipulação de listas encadeadas.  
+🎯 The main goal is to serve as a base for simple terminal-based management systems using linked lists.
 
 ---
 
 ## 🧑‍💻 Autor | Author
 
 Feito com 💙 por **Seu Nome Aqui**  
-Sinta-se à vontade para usar, estudar ou modificar o projeto.
+Made with 💙 by **Your Name Here**
 
 ---
 
 ## 📜 Licença | License
 
-Este projeto está disponível sob a licença MIT.  
+Este projeto está licenciado sob a licença MIT.  
 This project is licensed under the MIT License.
