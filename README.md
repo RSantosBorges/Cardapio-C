@@ -88,8 +88,3 @@ Please select an option.
 🎯 The main goal is to serve as a base for simple terminal-based management systems using linked lists.
 
 ---
-
-## 🧑‍💻 Autor | Author
-
-Feito com 💙 por **Renato S. Borges**  
-Made with 💙 by **Renato S. Borges**
