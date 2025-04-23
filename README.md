@@ -5,6 +5,13 @@
 
 ---
 
+<p align="center">
+  <img src="https://img.shields.io/badge/feito_em-C-blue?logo=c&logoColor=white" alt="Feito em C" />
+  <img src="https://img.shields.io/badge/vers%C3%A3o-1.0-yellow" alt="Versão 1.0" />
+</p>
+
+---
+
 ## 📌 Sobre o Projeto | About the Project
 
 🔧 Este projeto é uma implementação de um **sistema de cardápio digital**, feito em **C**, com interação via terminal.  
